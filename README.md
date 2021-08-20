@@ -186,6 +186,8 @@ protected override void Dispose(bool disposing)
 ## Story Four - Updating The Navagation Bar
 Story was to make the navagation bar user friendly. Updating the appearance using HTML and CSS. Included a search box so users can search for what they are looking for on the Theatre Website.
 
+[Navagation Bar](https://github.com/MJ231/Live-Project/blob/04447e63b1d6683e685bad979fffee4deadeb075/NavBar.PNG)
+
 ## Story Five - Creating A HistoryManager Button
 Story was to make a HistoryManger Button for the user to sign-in as the HistoryManager when the user is on the index or details page. Created a Partial View page for this login button, and rendered it in the layout page of the main project. By clicking the HistoryManager Button, it should automatically login the user as the HistoryManager seeded in the Database. Used HTML and CSS for styling and appearance.
 
