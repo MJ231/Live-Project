@@ -99,7 +99,7 @@ namespace TheaterCMS3.Areas.Rent.Models
  }
  ```
  
-## Story Three - Restricted CRUD Pages For RentalHisotries(HistoryManager)
+## Story Three - Restricted CRUD Pages For RentalHistories(HistoryManager)
 Restricted CRUD pages were a little tricky because you had to make sure a user couldn't access certain pages unless they were the HistoryManager. However, with proper research and some guidance from others, the story became sucessful.
 
 The task was to create Restricted CRUD Pages for users who are not identified as a HistoryManager. First, had to create a new View page (AccessDenied). This page would show up when a user would try to access the restricted pages. After, design the AccessDenied page and use Razor to create a link to take the user back to the Login page.
