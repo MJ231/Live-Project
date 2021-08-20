@@ -40,7 +40,7 @@ namespace TheatreCMS3.Areas.Rent.Models
        public bool Accepted { get; set; }
        public bool ContractSigned { get; set; }
      }
-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 {
      public DbSet<RentalRequest> RentalRequests { get; set; } //Located In The IdentityModels Partial View Page.
 }
@@ -90,7 +90,7 @@ namespace TheaterCMS3.Areas.Rent.Models
               
               db.Users.Add(HistoryManagerSeed);
           }
-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
  public void Configuration(IAppBuilder app) //Located In The Startup Page Of The Main Project.
  {
      ConfigureAuth(app);
@@ -109,7 +109,7 @@ private ApplicationDbContext db = new ApplicationDbContext();
     public ActionResult Index()
 {
     return View(db.RentalHistories.ToList())
-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 }
 
     // GET: Rent/RentalHistories
@@ -117,7 +117,7 @@ private ApplicationDbContext db = new ApplicationDbContext();
     public ActionResult Create()
 {
     return View();
-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 }
 
     // GET: Rent/RentalHistories
@@ -125,7 +125,7 @@ private ApplicationDbContext db = new ApplicationDbContext();
     public ActionResult Edit(int? id)
 {
     if (id == null)
-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 }
 
     // GET: Rent/RentalHistories
@@ -133,7 +133,7 @@ private ApplicationDbContext db = new ApplicationDbContext();
     public ActionResult Delete(int? id)
 {
     if (id == null)
-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
     return RedirectToAction("Index");
 }
 
@@ -145,10 +145,10 @@ public ActionResult AccessDenied()
 protected override void Dispose(bool disposing)
 {
     if (disposing)
-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
     base.Dispose(disposing);
 }
-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 }
     //Redirects Anyone Who Is Not Authorized To Be In RentalHistories To AccessDenied Page.
     public class HistoryManagerAuthroize : AuthorizeAttribute
@@ -163,7 +163,7 @@ protected override void Dispose(bool disposing)
         }
     }
 }
-----------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 //Located In The AccessDenied Partial View Page.
 @{
     ViewBag.Title = "AccessDenied";
