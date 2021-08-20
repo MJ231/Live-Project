@@ -1,7 +1,7 @@
 # Live Project at The Tech Academy
 
 ## Introduction:
-In the last two weeks of my time at the Tech Academy, I worked with my fellow peers to develop and update a full-scale Theatre Website in C#. It was neat to see how other good developers work with what they have to make a quality, and effiecint product. I worked on several stories that I am very proud of. Now, much of the site had already been built, but everyone on the team had a chance to work on front-end and back-end stories. Over the two week sprint, I also had the opportunity to work on some other project management and team programming skills that I'm confident I will use again on future projects.
+The Tech Academy gave me the opportunity to gain experience working with a team on a Live Project. In the last two weeks of my time at the Tech Academy, I worked with my fellow peers to develop and update a full-scale Theatre Website in C#. It was neat to see how other good developers work with what they have to make a quality, and effiecint product. I worked on several stories that I am very proud of. Now, much of the site had already been built, but everyone on the team had a chance to work on Front-End and Back-End stories. The task was to work on the Rental portion of the main project. Over the two week sprint, I also had the opportunity to work on some other project management and team programming skills that I'm confident I will use again on future projects.
 
 Below are some of the descriptions of stories I worked on over the course of the two week period. You will see code snippets and navagation links for a few of the coding stories.
 
@@ -48,9 +48,9 @@ namespace TheatreCMS3.Areas.Rent.Models
 ```
 
 ## Story Two - Creating Seed Data
-Building and testing a database would be impossible with out seed data. Seed data is fictional data to be used as a placeholder for testing. This task really helped me to understand how the CREATE and UPDATE process works in Entity Framework.
+Building and testing a database would be impossible without seed data. Seed data is fictional data to be used as a placeholder for testing. This task really helped me to understand how the CREATE and UPDATE process works in Entity Framework.
 
-The task was to create a seed method for a HistoryManager class, but also create a User Role and assigned it to the HistoryManager that was being seeded.
+The task was to create a seed method for a HistoryManager class, but also create a User Role and assign it to the HistoryManager that was being seeded.
 
 ```
 namespace TheaterCMS3.Areas.Rent.Models
@@ -99,8 +99,10 @@ namespace TheaterCMS3.Areas.Rent.Models
  }
  ```
  
- ## Story Three - Restricted CRUD Pages For RentalHisotries(HistoryManager)
-Creating Restricted CRUD Pages for users who are not identified as a HistoryManager. First, had to create a new View page (AccessDenied). This page would show up when a user would try to access the restricted pages. After, design the AccessDenied page and use Razor to create a link to take the user back to the Login page.
+## Story Three - Restricted CRUD Pages For RentalHisotries(HistoryManager)
+Restricted CRUD pages were a little tricky because you had to make sure a user couldn't access certain pages unless they were the HistoryManager. However, with proper research and some guidance from others, the story became sucessful.
+
+The task was to create Restricted CRUD Pages for users who are not identified as a HistoryManager. First, had to create a new View page (AccessDenied). This page would show up when a user would try to access the restricted pages. After, design the AccessDenied page and use Razor to create a link to take the user back to the Login page.
 
 ```
 private ApplicationDbContext db = new ApplicationDbContext();
@@ -190,12 +192,12 @@ Story was to make the navagation bar user friendly. Updating the appearance usin
 * [Navagation Bar](https://github.com/MJ231/Live-Project/blob/04447e63b1d6683e685bad979fffee4deadeb075/NavBar.PNG)
 
 ## Story Five - Creating A HistoryManager Button
-Story was to make a HistoryManger Button for the user to sign-in as the HistoryManager when the user is on the index or details page. Created a Partial View page for this login button, and rendered it in the layout page of the main project. By clicking the HistoryManager Button, it should automatically login the user as the HistoryManager seeded in the Database. Used HTML and CSS for styling and appearance.
+Story was to make a HistoryManger Button for the user to sign-in as the HistoryManager when the user is on the index or details page. Created a Partial View page for this login button, and rendered it in the layout page of the main project. By clicking the HistoryManager Button, it would automatically login the user as the HistoryManager seeded in the Database. Used HTML and CSS for styling and appearance.
 
 * [HistoryManager Button](https://github.com/MJ231/Live-Project/blob/837bc1bc9f82dabbbb730b364714f58f14a3b619/HistoryMButton.PNG)
 
 # Other Attributes Acquired:
-* Working with a group of developers to identify front and back end bugs to the improve usability of an application.
+* Working with a group of developers to identify front and back end bugs to improve usability of an application.
 * Learning new efficiencies from other developers by observing their workflow and asking questions.
 * Practice with team programming/pair programming when one developer runs into a bug they cannot solve.
 * Researching for answers when running into a roadblock.
