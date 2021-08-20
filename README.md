@@ -40,7 +40,7 @@ namespace TheatreCMS3.Areas.Rent.Models
        public bool Accepted { get; set; }
        public bool ContractSigned { get; set; }
      }
------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 {
      public DbSet<RentalRequest> RentalRequests { get; set; } //Located In The IdentityModels Partial View Page.
 }
@@ -163,7 +163,7 @@ protected override void Dispose(bool disposing)
         }
     }
 }
--------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 //Located In The AccessDenied Partial View Page.
 @{
     ViewBag.Title = "AccessDenied";
