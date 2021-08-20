@@ -205,5 +205,5 @@ Story was to make a HistoryManger Button for the user to sign-in as the HistoryM
 * Experiencing Agile/SCRUM meetings.
 * Creating Partial Views.
 * Worked on eight stories in a sprint fashion in a two week period.
-* Using C#, JavaScript, HTML and CSS, MVC, Razor, SQL Database, Entity Framework, and much more.
+* Using C#, JavaScript, HTML and CSS, MVC, Razor, SQL Database, Entity Framework, DevOps, and much more.
 * Using all the information and knowledge that was given from the bootcamp, and transferring it into this live project.
