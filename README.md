@@ -3,7 +3,7 @@
 ## Introduction:
 In the last two weeks of my time at the Tech Academy, I worked with my fellow peers to develop and update a full-scale Theatre Website in C#. It was neat to see how other good developers work with what they have to make a quality, and effiecint product. I worked on several stories that I am very proud of. Now, much of the site had already been built, but everyone on the team had a chance to work on front-end and back-end stories. Over the two week sprint, I also had the opportunity to work on some other project management and team programming skills that I'm confident I will use again on future projects.
 
-Below are some of the descriptions of stories I worked on over the course of the two week period. You will see code snippets of a few of the coding stories.
+Below are some of the descriptions of stories I worked on over the course of the two week period. You will see code snippets and navagation links for a few of the coding stories.
 
 ## Summary Of Technologies Used:
 
